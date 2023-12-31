@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'icons';
+  src:
+    url('../public/fonts/icons.ttf?xdgidw') format('truetype'),
+    url('../public/fonts/icons.woff?xdgidw') format('woff'),
+    url('../public/fonts/icons.svg?xdgidw#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"]::before, [class*=" _icon-"]::before {
+  font-family: 'icons' !important;
+}
+
+[class^="_icon-"]::before, [class*=" _icon-"]::before {
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-amex .path1:before {
+  content: "\e900";
+  color: rgb(255, 255, 255);
+}
+._icon-amex .path2:before {
+  content: "\e901";
+  margin-left: -1.470703125em;
+  color: rgb(0, 111, 207);
+}
+._icon-amex .path3:before {
+  content: "\e902";
+  margin-left: -1.470703125em;
+  color: rgb(255, 255, 255);
+}
+._icon-discover .path1:before {
+  content: "\e903";
+  color: rgb(21, 31, 37);
+}
+._icon-discover .path2:before {
+  content: "\e904";
+  margin-left: -5.8330078125em;
+  color: rgb(253, 96, 32);
+}
+._icon-jcb .path1:before {
+  content: "\e905";
+  color: rgb(44, 152, 56);
+}
+._icon-jcb .path2:before {
+  content: "\e906";
+  margin-left: -1.3125em;
+  color: rgb(16, 74, 148);
+}
+._icon-jcb .path3:before {
+  content: "\e907";
+  margin-left: -1.3125em;
+  color: rgb(175, 20, 53);
+}
+._icon-maestro .path1:before {
+  content: "\e908";
+  color: rgb(108, 107, 189);
+}
+._icon-maestro .path2:before {
+  content: "\e909";
+  margin-left: -1.349609375em;
+  color: rgb(235, 0, 27);
+}
+._icon-maestro .path3:before {
+  content: "\e90a";
+  margin-left: -1.349609375em;
+  color: rgb(0, 153, 223);
+}
+._icon-maestro .path4:before {
+  content: "\e90b";
+  margin-left: -1.349609375em;
+  color: rgb(35, 31, 32);
+}
+._icon-maestro .path5:before {
+  content: "\e90c";
+  margin-left: -1.349609375em;
+  color: rgb(35, 31, 32);
+}
+._icon-maestro .path6:before {
+  content: "\e90d";
+  margin-left: -1.349609375em;
+  color: rgb(35, 31, 32);
+}
+._icon-maestro .path7:before {
+  content: "\e90e";
+  margin-left: -1.349609375em;
+  color: rgb(35, 31, 32);
+}
+._icon-maestro .path8:before {
+  content: "\e90f";
+  margin-left: -1.349609375em;
+  color: rgb(35, 31, 32);
+}
+._icon-maestro .path9:before {
+  content: "\e910";
+  margin-left: -1.349609375em;
+  color: rgb(35, 31, 32);
+}
+._icon-maestro .path10:before {
+  content: "\e911";
+  margin-left: -1.349609375em;
+  color: rgb(35, 31, 32);
+}
+._icon-masterrcard .path1:before {
+  content: "\e912";
+  color: rgb(35, 31, 32);
+}
+._icon-masterrcard .path2:before {
+  content: "\e913";
+  margin-left: -1.2861328125em;
+  color: rgb(255, 95, 0);
+}
+._icon-masterrcard .path3:before {
+  content: "\e914";
+  margin-left: -1.2861328125em;
+  color: rgb(235, 0, 27);
+}
+._icon-masterrcard .path4:before {
+  content: "\e915";
+  margin-left: -1.2861328125em;
+  color: rgb(247, 158, 27);
+}
+._icon-union-pay .path1:before {
+  content: "\e91a";
+  color: rgb(226, 24, 54);
+}
+._icon-union-pay .path2:before {
+  content: "\e91b";
+  margin-left: -1.5em;
+  color: rgb(0, 68, 124);
+}
+._icon-union-pay .path3:before {
+  content: "\e91c";
+  margin-left: -1.5em;
+  color: rgb(0, 123, 132);
+}
+._icon-union-pay .path4:before {
+  content: "\e91d";
+  margin-left: -1.5em;
+  color: rgb(254, 254, 254);
+}
+._icon-like:before {
+  content: "\e91f";
+}
+._icon-arrow:before {
+  content: "\e91e";
+}
+._icon-flame:before {
+  content: "\e916";
+}
+._icon-present--:before {
+  content: "\e917";
+}
+._icon-rocket:before {
+  content: "\e918";
+}
+._icon-star:before {
+  content: "\e919";
+}
