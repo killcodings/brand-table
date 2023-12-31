@@ -1,0 +1,554 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap);
+@font-face {
+  font-family: 'icons';
+  src:
+    url(assets/5b8ea4582325a45fa1c9.ttf) format('truetype'),
+    url(assets/b55f24238f5f583e829f.woff) format('woff'),
+    url(assets/4c62d02fd4bfc8ca36e5.svg#icons) format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"]::before, [class*=" _icon-"]::before {
+  font-family: 'icons' !important;
+}
+
+[class^="_icon-"]::before, [class*=" _icon-"]::before {
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-amex .path1:before {
+  content: "\e900";
+  color: rgb(255, 255, 255);
+}
+._icon-amex .path2:before {
+  content: "\e901";
+  margin-left: -1.470703125em;
+  color: rgb(0, 111, 207);
+}
+._icon-amex .path3:before {
+  content: "\e902";
+  margin-left: -1.470703125em;
+  color: rgb(255, 255, 255);
+}
+._icon-discover .path1:before {
+  content: "\e903";
+  color: rgb(21, 31, 37);
+}
+._icon-discover .path2:before {
+  content: "\e904";
+  margin-left: -5.8330078125em;
+  color: rgb(253, 96, 32);
+}
+._icon-jcb .path1:before {
+  content: "\e905";
+  color: rgb(44, 152, 56);
+}
+._icon-jcb .path2:before {
+  content: "\e906";
+  margin-left: -1.3125em;
+  color: rgb(16, 74, 148);
+}
+._icon-jcb .path3:before {
+  content: "\e907";
+  margin-left: -1.3125em;
+  color: rgb(175, 20, 53);
+}
+._icon-maestro .path1:before {
+  content: "\e908";
+  color: rgb(108, 107, 189);
+}
+._icon-maestro .path2:before {
+  content: "\e909";
+  margin-left: -1.349609375em;
+  color: rgb(235, 0, 27);
+}
+._icon-maestro .path3:before {
+  content: "\e90a";
+  margin-left: -1.349609375em;
+  color: rgb(0, 153, 223);
+}
+._icon-maestro .path4:before {
+  content: "\e90b";
+  margin-left: -1.349609375em;
+  color: rgb(35, 31, 32);
+}
+._icon-maestro .path5:before {
+  content: "\e90c";
+  margin-left: -1.349609375em;
+  color: rgb(35, 31, 32);
+}
+._icon-maestro .path6:before {
+  content: "\e90d";
+  margin-left: -1.349609375em;
+  color: rgb(35, 31, 32);
+}
+._icon-maestro .path7:before {
+  content: "\e90e";
+  margin-left: -1.349609375em;
+  color: rgb(35, 31, 32);
+}
+._icon-maestro .path8:before {
+  content: "\e90f";
+  margin-left: -1.349609375em;
+  color: rgb(35, 31, 32);
+}
+._icon-maestro .path9:before {
+  content: "\e910";
+  margin-left: -1.349609375em;
+  color: rgb(35, 31, 32);
+}
+._icon-maestro .path10:before {
+  content: "\e911";
+  margin-left: -1.349609375em;
+  color: rgb(35, 31, 32);
+}
+._icon-masterrcard .path1:before {
+  content: "\e912";
+  color: rgb(35, 31, 32);
+}
+._icon-masterrcard .path2:before {
+  content: "\e913";
+  margin-left: -1.2861328125em;
+  color: rgb(255, 95, 0);
+}
+._icon-masterrcard .path3:before {
+  content: "\e914";
+  margin-left: -1.2861328125em;
+  color: rgb(235, 0, 27);
+}
+._icon-masterrcard .path4:before {
+  content: "\e915";
+  margin-left: -1.2861328125em;
+  color: rgb(247, 158, 27);
+}
+._icon-union-pay .path1:before {
+  content: "\e91a";
+  color: rgb(226, 24, 54);
+}
+._icon-union-pay .path2:before {
+  content: "\e91b";
+  margin-left: -1.5em;
+  color: rgb(0, 68, 124);
+}
+._icon-union-pay .path3:before {
+  content: "\e91c";
+  margin-left: -1.5em;
+  color: rgb(0, 123, 132);
+}
+._icon-union-pay .path4:before {
+  content: "\e91d";
+  margin-left: -1.5em;
+  color: rgb(254, 254, 254);
+}
+._icon-like:before {
+  content: "\e91f";
+}
+._icon-arrow:before {
+  content: "\e91e";
+}
+._icon-flame:before {
+  content: "\e916";
+}
+._icon-present--:before {
+  content: "\e917";
+}
+._icon-rocket:before {
+  content: "\e918";
+}
+._icon-star:before {
+  content: "\e919";
+}
+
+
+
+
+p {
+    margin: 0;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: #313446;
+}
+* {
+   box-sizing:border-box; 
+}
+.wrapper-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-img img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+}
+/*.wrapper-img a {
+    width: 100%;
+}*/
+address {
+    font-style: normal;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  color: #313446;
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+  font-weight: 300;
+  letter-spacing: .3px;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+h1,h2,h3,h4,h5,h6,h7 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #313446;
+    margin: 0;
+}
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+  outline: none;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+.visuallyhidden{position:absolute;clip:rect(1px, 1px, 1px, 1px);-webkit-clip-path:inset(0px 0px 99.9% 99.9%);clip-path:inset(0px 0px 99.9% 99.9%);overflow:hidden;height:1px;width:1px;padding:0;border:0}.site-main>.table{margin-top:22px}table{all:unset;display:flex;flex-basis:100%}tbody{display:flex;flex-direction:column;flex-basis:100%}th,td{display:flex}.table{width:1320px;margin:0 auto}.table .brand{background:#f7f8fd;border-radius:15px;margin-bottom:15px}.table .brand .brand-top{display:flex;justify-content:space-between;align-items:center;flex-basis:100%}.table .brand .brand-top__line{display:flex;justify-content:space-between;align-items:center;flex-basis:100%;padding:25px 15px;border-bottom:2px solid rgba(235,236,245,.6);position:relative}.table .brand .brand-top__line-name{display:flex;justify-content:space-between;align-items:center}.table .brand .brand-top__line-name .count-brand{margin-right:15px;font-weight:500;font-size:18px;line-height:21px;background:linear-gradient(180deg, #ffc736 0%, #ff630c 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}.table .brand .brand-top__line-name .title-brand{font-weight:500;font-size:18px;line-height:21px;color:#313446;text-transform:uppercase}.table .brand .brand-top__line-name ._icon-flame:before{background:linear-gradient(180deg, #ffc736 0%, #ff630c 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;display:initial;margin-right:15px}.table .brand .brand-top__line-rating{display:flex;justify-content:space-between;align-items:center}.table .brand .brand-top__line-rating .count-rating{margin-right:10px;font-weight:500;font-size:17px;line-height:20px}.table .brand .brand-top__line-rating .rating{display:flex;justify-content:space-between;align-items:center;cursor:pointer}.table .brand .brand-top__line-rating .rating ._icon-star{display:flex;justify-content:center;align-items:center;background:#ff922e;-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:17px;line-height:20px}.table .brand .brand-top__line-rating .rating:not(:last-child){margin-right:3.2px}.table .brand .brand-bottom__content{display:flex;flex-basis:100%;padding:15px;justify-content:space-between}.table .brand .brand-bottom__content-bonus{display:flex;justify-content:space-between;flex-basis:34%}.table .brand .brand-bottom__content-bonus .wrap-logo{display:flex;justify-content:center;align-items:center;background:linear-gradient(148.36deg, #313446 19.06%, #070b1f 97.93%);border-radius:15px;height:100%;margin-right:18px;padding:17px;max-width:148px;flex-basis:100%}.table .brand .brand-bottom__content-bonus .info-bonus{display:flex;flex-direction:column;justify-content:space-between}.table .brand .brand-bottom__content-bonus .info-bonus .title-presents{display:flex;align-items:center;font-weight:500;font-size:14px;line-height:17px;color:#72768d}.table .brand .brand-bottom__content-bonus .info-bonus ._icon-present--:before{background:linear-gradient(180deg, #ffc736 0%, #ff630c 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-right:8px}.table .brand .brand-bottom__content-bonus .info-bonus .title-big{font-size:24px;line-height:28px;font-weight:700}.table .brand .brand-bottom__content-bonus .info-bonus .text{font-size:14px;line-height:18px;color:#72768d}.table .brand .brand-bottom__content-lists{flex-basis:18%;padding:5px 0}.table .brand .brand-bottom__content-lists ._icon-rocket:before{color:#0079f0;margin-right:10px}.table .brand .brand-bottom__content-lists .lists .list{font-size:14px;line-height:17px;color:#72768d}.table .brand .brand-bottom__content-pay{display:flex;flex-direction:column;justify-content:space-between;flex-basis:21%;max-width:270px;margin-right:32px}.table .brand .brand-bottom__content-pay .pay-wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:15px}.table .brand .brand-bottom__content-pay .pay-wrap .i-pay{display:flex;justify-content:center;align-items:center;width:53px;height:34px;background:rgba(235,236,245,.65);border-radius:5px;font-family:"icons"}.table .brand .brand-bottom__content-pay .pay-wrap ._icon-masterrcard{font-size:21px}.table .brand .brand-bottom__content-pay .pay-wrap ._icon-maestro{font-size:21px}.table .brand .brand-bottom__content-pay .pay-wrap ._icon-discover{font-size:6px}.table .brand .brand-bottom__content-pay .more-info{display:flex;justify-content:center;align-items:center;position:relative;text-align:center;padding:0;margin-top:25px;border-top:unset;cursor:pointer}.table .brand .brand-bottom__content-pay .more-info::before{content:"";position:absolute;bottom:50%;left:0;width:86px;height:2px;background-color:#a6aac3}.table .brand .brand-bottom__content-pay .more-info::after{content:"";position:absolute;bottom:50%;right:0;width:86px;height:2px;background-color:#a6aac3}.table .brand .brand-bottom__content-pay .more-info__text{font-size:13px;line-height:15px;color:#a6aac3;flex-basis:unset}.table .brand .brand-bottom__content-pay .more-info ._icon-arrow{display:flex;align-items:center;font-size:5px;margin-left:5px;color:#0079f0}.table .brand .brand-bottom__content-pay .more-info .link{position:absolute;top:-10px;right:0;bottom:0;left:0;z-index:1}.table .brand .brand-bottom__content-buttons{display:flex;flex-direction:column;justify-content:space-between;flex-basis:13.7%;gap:15px}.table .brand .brand-bottom__content-buttons button{border:none;height:100%;cursor:pointer}.table .brand .brand-bottom__content-buttons-bonus{color:#fff;background:#53af1b;border-radius:10px;font-weight:500;font-size:14px;line-height:17px;color:#fff}.table .brand .brand-bottom__content-buttons-review{color:#6f728c;background:rgba(235,236,245,.49);border-radius:10px;font-weight:500;font-size:14px;line-height:17px;color:#6f728c}.table tr:first-child .brand-top__line:nth-child(1):after{display:flex;align-items:center;justify-content:center;content:"BEST BONUS";color:#fff;font-weight:500;font-size:14px;line-height:17px;position:absolute;left:50%;top:-5px;width:220px;height:42px;background-image:url(assets/6e6441bbd9cdc9d08159.png);background-size:100%;transform:translate(-50%, 0)}.table tr:nth-child(2) .brand-top__line:nth-child(1)::after{display:flex;align-items:center;justify-content:center;content:"BEST BONUS";color:#fff;font-weight:500;font-size:14px;line-height:17px;position:absolute;left:50%;width:220px;height:42px;background-image:url(assets/7796ee09ff9a2da2a10a.png);background-size:100%;transform:translate(-50%, 0)}.table tr:last-child .brand-top__line:nth-child(1)::after{content:"";display:none}.table .more{display:none;justify-content:space-between;flex-basis:100%;background-color:#f1f3fd;border-bottom-right-radius:15px;border-bottom-left-radius:15px}.table .more-info{display:flex;justify-content:space-between;flex-basis:100%;border-top:1px solid #ebecf5;padding:15px}.table .more-info__text{flex-basis:35%}.table .more-info ul{border:2px solid #ebecf5;border-radius:15px;padding:15px 15px 12px 15px}.table .more-info ul li{font-size:14px;line-height:25px;color:#72768d;display:flex;align-items:center}.table .more-info ul li:before{margin-right:10px}.table .more-info__lists{flex-basis:31%}.table .more-info__lists .lists .list:before{color:#53af1b;font-size:19px}.table .more-info__unlike-lists{flex-basis:31%}.table .more-info__unlike-lists .lists .list:before{font-size:19px;color:#ff4c34;display:inline-block;transform:rotate(180deg)}.lists{display:flex;flex-direction:column;justify-content:space-between;height:100%}.more-info__text-p{flex-basis:35%}.more-info__text-p p{font-size:14px;line-height:25px;color:#72768d}.brand .more{display:none}.brand.active .more{display:flex}.active .more{display:flex}.active ._icon-arrow{color:#a6aac3 !important}.active ._icon-arrow:before{display:inline-block !important;transform:rotate(180deg)}@media screen and (max-width: 1360px){.table{width:95%;margin:0 auto}.table .brand .brand-bottom__content{flex-wrap:wrap}.table .brand .brand-bottom__content-bonus{flex-basis:69%}.table .brand .brand-bottom__content-lists{flex-basis:30%}.table .brand .brand-bottom__content-pay{flex-basis:57%;max-width:unset;margin-right:0;margin-top:25px}.table .brand .brand-bottom__content-pay .pay-wrap .i-pay:nth-child(7){display:none}.table .brand .brand-bottom__content-pay .pay-wrap .i-pay:nth-child(8){display:none}.table .brand .brand-bottom__content-pay .more-info:before{width:35%}.table .brand .brand-bottom__content-pay .more-info:after{width:35%}.table .brand .brand-bottom__content-buttons{flex-basis:40%;margin-top:25px}.table .brand .more .more-info{gap:10px;flex-direction:column}}@media screen and (max-width: 768px){.table{width:95%;margin:0 auto}.table .brand{margin-bottom:6px}.table .brand .brand-top__line{padding:15px 10px}.table .brand .brand-top__line-name .title-brand{font-size:14px;line-height:17px}.table .brand .brand-top__line-name .count-brand{font-size:14px;line-height:17px}.table .brand .brand-top__line-rating .count-rating{font-size:14px;line-height:17px;margin-right:5px}.table .brand .brand-top__line-rating .rating ._icon-star{font-size:14px;line-height:17px}.table .brand .brand-top__line-rating .rating ._icon-star:not(:first-child){display:none}.table .brand tr:first-child .brand-top__line:nth-child(1):after{width:181px;height:34px;top:-4px;font-size:12px;line-height:14px;background-repeat:no-repeat;transform:translate(-18%, 0)}.table .brand .brand-bottom__content{padding:0}.table .brand .brand-bottom__content-bonus{order:0;flex-basis:100%;padding:14px 10px 10px 14px;border-bottom:2px solid rgba(235,236,245,.6)}.table .brand .brand-bottom__content-bonus .wrap-logo{padding:5px;max-width:unset;flex-basis:40%;margin-right:15px;height:60px}.table .brand .brand-bottom__content-bonus .info-bonus{font-size:18px;line-height:21px}.table .brand .brand-bottom__content-bonus .info-bonus .title-presents{display:none}.table .brand .brand-bottom__content-bonus .info-bonus .title-big{font-size:18px;line-height:21px}.table .brand .brand-bottom__content-bonus .info-bonus .text{font-size:12px;line-height:14px;margin-top:4px}.table .brand .brand-bottom__content-lists{order:1;margin:22px 58px 0 14px;flex-basis:100%;padding:0}.table .brand .brand-bottom__content-lists .lists{flex-wrap:wrap-reverse}.table .brand .brand-bottom__content-lists .lists .list{flex-basis:49%}.table .brand .brand-bottom__content-pay{order:3;flex-basis:100%;margin-top:0;margin:4px 10px 15px 10px}.table .brand .brand-bottom__content-pay .pay-wrap{display:none}.table .brand .brand-bottom__content-pay .more-info{margin-top:0}.table .brand .brand-bottom__content-buttons{order:2;flex-basis:100%;flex-direction:row-reverse;margin-top:0;margin:0 10px 15px 10px}.table .brand .brand-bottom__content-buttons button{height:44px;flex-basis:49%;font-size:12px;line-height:15px}.table .brand .more-info{padding:10px}.table .brand .more-info__lists .lists .list::before{margin-right:5px;font-size:12px}.table .brand .more-info__unlike-lists .lists .list::before{margin-right:5px;font-size:12px}.table .brand .more-info ul{padding:10px;border-radius:10px}.table .brand .more-info ul li{font-size:12px;line-height:14px}.table .brand .more-info ul li:not(:last-child){margin-bottom:10px}.table .brand .more-info__text-p p{font-size:10px;line-height:20px}.table .brand .pay-wrap{order:-1;font-family:"icons";display:flex;justify-content:space-between}.table .brand .pay-wrap .i-pay{font-size:17px;display:flex;justify-content:center;align-items:center;width:53px;height:34px;background:rgba(235,236,245,.65);border-radius:5px}.table .brand .pay-wrap ._icon-discover{font-size:6px}}@media screen and (max-width: 428px){.table .brand{margin-bottom:1px}.table .brand .brand-top__line-name .count-brand{margin-right:7px}.table .brand .brand-top__line-name ._icon-flame:before{margin-right:9px}.table .brand .brand-top__line-rating .count-rating{margin-right:17px}.table .brand tr:first-child .brand-top__line:nth-child(1):after{width:47vw;height:10vw;top:-4px;font-size:9px;line-height:12px;background-repeat:no-repeat;transform:translate(-40%, 0)}.table .brand tr:nth-child(2) .brand-top__line:nth-child(1):after{background-image:url(assets/6e6441bbd9cdc9d08159.png) !important}.table .brand .brand-bottom__content{padding:0}.table .brand .brand-bottom__content-bonus{padding:10px}.table .brand .brand-bottom__content-bonus .wrap-logo{margin-right:10px;height:100%;flex-basis:80%}.table .brand .brand-bottom__content-bonus .info-bonus .text{margin-top:8px}.table .brand .brand-bottom__content-lists{margin:0;padding:10px;margin-top:5px}.table .brand .brand-bottom__content-lists .lists{flex-wrap:wrap;flex-direction:unset;justify-content:flex-start}.table .brand .brand-bottom__content-lists .lists .list{flex-basis:unset;font-size:12px;line-height:14px;margin-right:8px}.table .brand .brand-bottom__content-lists .lists .list:nth-child(1){order:1;margin-bottom:10px}.table .brand .brand-bottom__content-lists .lists .list:nth-child(2){order:3}.table .brand .brand-bottom__content-lists .lists .list:nth-child(3){order:0}.table .brand .brand-bottom__content-lists .lists .list:nth-child(4){order:2}.table .brand .brand-bottom__content-pay{margin:5px 10px 15px 10px}.table .brand .brand-bottom__content-buttons{flex-direction:unset;gap:10px;flex-wrap:wrap-reverse}.table .brand .brand-bottom__content-buttons button{flex-basis:100%}.table .brand .more-info{padding:9px;margin-top:-5px;gap:0}.table .brand .more-info__unlike-lists .lists .list{display:flex;align-items:flex-start}.table .brand .more-info__text-p p{line-height:12px}.table .brand .pay-wrap .i-pay{width:38px;height:24px;font-size:14px}.table .brand .pay-wrap ._icon-discover{font-size:5px}.table tr:first-child .brand-top__line:nth-child(1):after{width:47vw;height:10vw;top:-4px;font-size:9px;line-height:12px;background-repeat:no-repeat;transform:translate(-40%, 0)}.table tr:nth-child(2) .brand-top__line:nth-child(1):after{background-image:url(assets/6e6441bbd9cdc9d08159.png) !important}}
